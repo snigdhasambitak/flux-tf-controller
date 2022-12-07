@@ -1,0 +1,15 @@
+apiVersion: infra.contrib.fluxcd.io/v1alpha1
+kind: Terraform
+metadata:
+  name: gcs-bucket
+  namespace: flux-system
+spec:
+  approvePlan: ""
+  interval: 1m
+  path: ./examples
+  sourceRef:
+    kind: GitRepository
+    name: gcs-bucket
+    namespace: flux-system
+  writeOutputsToSecret:
+    name: gcs-bucket-output
