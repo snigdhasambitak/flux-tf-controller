@@ -4,7 +4,7 @@ metadata:
   name: gcs-bucket
   namespace: flux-system
 spec:
-  approvePlan: "plan-main-67601f2d65"
+  approvePlan: "auto"
   interval: 1m
   path: ./examples
   sourceRef:
@@ -13,4 +13,3 @@ spec:
     namespace: flux-system
   writeOutputsToSecret:
     name: gcs-bucket-output
-    
