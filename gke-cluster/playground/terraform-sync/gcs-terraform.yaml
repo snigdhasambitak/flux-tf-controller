@@ -6,7 +6,7 @@ metadata:
 spec:
   approvePlan: "auto"
   interval: 1m
-  path: ./examples
+  path: ./
   sourceRef:
     kind: GitRepository
     name: gcs-bucket
