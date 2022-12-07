@@ -13,3 +13,4 @@ spec:
     namespace: flux-system
   writeOutputsToSecret:
     name: gcs-bucket-output
+    
