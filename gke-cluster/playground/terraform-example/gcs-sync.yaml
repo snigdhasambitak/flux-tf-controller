@@ -4,7 +4,7 @@ metadata:
   name: gcs-bucket
   namespace: flux-system
 spec:
-  approvePlan: ""
+  approvePlan: "plan-main-5c957c477f"
   interval: 1m
   path: ./
   sourceRef:
