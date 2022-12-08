@@ -15,4 +15,6 @@ spec:
       version: '>=0.2.5'
   interval: 1m0s
   releaseName: tf-controller
+  values:
+    replicaCount: 2
 
