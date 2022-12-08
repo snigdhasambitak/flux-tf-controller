@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: gcs-bucket
+  namespace: flux-system
+spec:
+  interval: 30s
+  url: https://github.com/snigdhasambitak/terraform-hello
+  ref:
+    branch: main
